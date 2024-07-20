@@ -1,12 +1,3 @@
-/* eslint-disable */
-export default function taskBlock(trueOrFalse) {
-  const task = false;
-  const task2 = true;
-
-  if (trueOrFalse) {
-    const task = true;
-    const task2 = false;
-  }
-
-  return [task, task2];
+export default function getSumOfHoods(initialNumber, expansion1989 = 89, expansion2019 = 19) {
+  return initialNumber + expansion1989 + expansion2019;
 }

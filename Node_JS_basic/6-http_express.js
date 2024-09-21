@@ -5,7 +5,7 @@ const app = express();
 module.exports = app;
 
 app.get('/', (req, res) => {
-    res.send('Hello Holberton School!');
+  res.send('Hello Holberton School!');
 });
 
 app.listen(port);
